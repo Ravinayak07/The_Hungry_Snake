@@ -723,8 +723,8 @@ def exit():
 def twiliox():
     from twilio.rest import Client
     
-    x = 'AC7c7c44f187307017d01ced5a3d0f5f04'#account_sid
-    y = 'bd38af8a4fbf3b0bd3129088e5e74e26'#auth_token
+    x = #account_sid
+    y = #auth_token
     client = Client(x, y)
 
     body_msg="Hi "+name+".Your Score is : "+Score
